@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Vazir';
+  src:
+    local('Vazir'),
+    url('/fonts/vazir-font-v16.1.0/Vazir-Bold.woff2') format('woff2'),
+    url('/fonts/vazir-font-v16.1.0/Vazir-Bold.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF !important;
+}
+
+* {
+  font-family: 'Vazir' !important;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  height: -webkit-fill-available;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
